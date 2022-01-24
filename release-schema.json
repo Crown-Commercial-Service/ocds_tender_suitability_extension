@@ -1,0 +1,37 @@
+{
+  "definitions": {
+    "Tender": {
+      "properties": {
+        "suitability": {
+          "title": "Suitability",
+          "description": "The suitability of a tender for different organisation types.",
+          "$ref": "#/definitions/Suitability"
+        }
+      }
+    },
+    "Suitability": {
+      "title": "Suitability",
+      "description": "Information about the suitability for different organisation types, such as SMEs and VCSEs.",
+      "type": "object",
+      "minProperties": 1,
+      "properties": {
+        "sme": {
+          "title": "SME suitability",
+          "description": "Suitable for small- and medium-sized enterprises (SME).",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "vcse": {
+          "title": "VCSE suitability",
+          "description": "Suitable for voluntary, community and social enterprises (VCSE).",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

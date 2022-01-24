@@ -1,0 +1,17 @@
+{
+  "name": {
+    "en": "Tender suitability"
+  },
+  "description": {
+    "en": "Allows tenders to be classified as suitable (or not) for different organisation types."
+  },
+  "documentationUrl": {
+    "en": "https://extensions.open-contracting.org/en/extensions/tender_suitability/master/"
+  },
+  "schemas": [
+    "release-schema.json"
+  ],
+  "compatibility": [
+    "1.1"
+  ]
+}
